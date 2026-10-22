@@ -1,0 +1,155 @@
+nav a:hover{
+     border: 2px #ffcb05 dotted;
+}
+nav a:focus{
+     border: 2px #ffcb05 dotted;
+}
+
+a[href="#main"]{
+     position: absolute;
+     top: -65rem;
+     background-color: #00274c; /* Umich Blue*/
+     font-weight: bold;
+     color: #ffcb05; /* Michigan Maize */
+}
+
+a[href="#main"]:focus{
+     top: 0;
+}
+
+body {
+     font-size: 1rem;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+img, iframe {
+     max-width: 100%;
+     display: block;
+}
+
+header {
+     background-color: #ffffff;
+     border-bottom: #00274c solid 0.25rem;
+     padding: 1rem;
+}
+
+header img{
+     max-width: 120px;
+     margin-bottom: 1rem;
+}
+
+h1 {
+     font: 1.75rem #00274c;
+     margin: 0.5rem 0 1rem;
+}
+
+nav ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-direction: column;
+}
+
+nav li a {
+     display: block;
+     padding: 0.75rem 1rem;
+     background-color: #f4f4f4;
+     color: #00274c;
+     min-height: 44px;
+     font-weight: bold;
+}
+
+nav li a:hover, nav li a:focus {
+     background-color: #00274c;
+     color: #ffffff;
+}
+
+main {
+     padding: 1.5rem 1rem;
+}
+
+section {
+     margin-bottom: 2rem;
+}
+
+h2 {
+     font-size: 1.35rem;
+     color: #00274c;
+     border-bottom: #ffcb05 0.125rem solid;
+     padding-bottom: 0.25rem;
+     margin: 1.5rem;
+}
+
+h3 {
+     font-size: 1.15rem;
+     color: #2f65a7; /* Secondary Arboretum Blue*/
+}
+
+h3 {
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+/* Creates a colored separator bar under every h3 */
+h3::after {
+    content: "";
+    display: block;
+    width: 3rem; /* Adjust length of the bar */
+    height: 0.25rem; /* Thickness of the bar */
+    background-color: #ffcb05; /* UM Maize accent color */
+    margin-top: 0.375rem;
+    border-radius: 2px;
+}
+
+.grid-container {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 1.25rem;
+     margin: 1rem;
+}
+
+table {
+     width: 100%;
+     border-collapse: collapse;
+     gap: 1.25rem;
+     margin-top: 1rem;
+}
+
+th, td {
+     padding: 0.75rem;
+     border: 0.1rem solid #000000;
+     text-align: left;
+     font: 0.95rem;
+}
+
+th {
+     background-color: #00274c;
+     color: #ffffff;
+}
+
+footer {
+     background-color: #00274c;
+     color: #000000;
+     text-align: center;
+     padding: 2rem 1rem;
+     margin-top: 3rem;
+     font-size: 0.9rem;
+}
+
+footer p {
+     margin: 0.5rem 0;
+     color: #ffffff;
+}
+
+footer a{
+     color: #ffcb05;
+     text-decoration: underline;
+}
+
+footer a:focus, footer a:hover {
+     color: #ffffff;
+}
