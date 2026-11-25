@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found (404) | UMSI Engaged Learning Office</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#main">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prep.html">Preparing for Your Experience</a></li>
+                <li><a href="start.html">Starting Your Experience</a></li>
+                <li><a href="faculty.html">Faculty Hub</a></li>
+            </ul>
+        </nav>
+        <h1>404: Page Not Found</h1>
+    </header>
+
+    <main id="main">
+        <section>
+            <h2>Looks Like You Took a Detour</h2>
+            <p>We couldn't find the page you were looking for. It may have been moved, renamed, or the link might be outdated.</p>
+            <p>Use one of the sections below to get back on track with your engaged learning journey:</p>
+
+            <div class="grid-container">
+                <article class="grid-card">
+                    <div>
+                        <h3>Home</h3>
+                        <p>Return to the UMSI Engaged Learning Office overview and explore featured programs.</p>
+                    </div>
+                    <a href="index.html">Go to Home Page</a>
+                </article>
+
+                <article class="grid-card">
+                    <div>
+                        <h3>Preparing for Your Experience</h3>
+                        <p>Understand your project context, evaluate team readiness, and review preparation checklists.</p>
+                    </div>
+                    <a href="prep.html">Prepare for Your Experience</a>
+                </article>
+
+                <article class="grid-card">
+                    <div>
+                        <h3>Starting Your Experience</h3>
+                        <p>Access client outreach templates, kickoff meeting agendas, and partnership agreements.</p>
+                    </div>
+                    <a href="start.html">Start Your Experience</a>
+                </article>
+
+                <article class="grid-card">
+                    <div>
+                        <h3>Faculty Hub</h3>
+                        <p>Explore skill development workshops, custom in-class sessions, and campus partner resources.</p>
+                    </div>
+                    <a href="faculty.html">Visit the Faculty Hub</a>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Still Need Help?</h2>
+            <p>If you believe this link is broken or need assistance finding a specific resource, please contact the Engaged Learning Office at <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>University of Michigan School of Information | <a href="https://www.si.umich.edu/programs/engaged-learning/about-engaged-learning-office">Engaged Learning Office </a></p>
+        <address>
+            <a href="mailto:umsi.engagement@umich.edu">umsi.engagement@umich.edu</a>
+        </address> <!-- Content taken & modified from codexworld to display dynamic year in copyright. -->
+        <p>&copy; <span id="year"></span> Regents of the University of Michigan</p>
+    </footer>
+</body>
+<script>
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>
+</html>
